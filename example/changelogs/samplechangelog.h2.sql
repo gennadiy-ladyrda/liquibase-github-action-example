@@ -34,7 +34,7 @@ alter table company add column country varchar(2)
 
 --changeset yourname:yourname1
 --rollback DROP TABLE yourname;
-CREATE TABLE temp_table (
+CREATE TABLE gena_temp_table (
 id int primary key,
 name varchar(50) not null,
 )
